@@ -12,7 +12,7 @@ library(RPostgreSQL)
 
 con <- dbConnect(RPostgreSQL::PostgreSQL(),
                  dbname = "ump", 
-                 host = "172.16.5.28", 
+                 host = "", 
                  port = 5432,
                  user = "ump",
                  password = "ump")
